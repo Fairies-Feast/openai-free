@@ -1,3 +1,5 @@
+import subprocess
+subprocess.run("pip install flask g4f flask-cors".split(" "))
 from flask import Flask, request
 import g4f
 import base64
